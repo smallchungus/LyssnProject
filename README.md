@@ -1,6 +1,7 @@
-Hey there! This is my implementation of a Java app that talks to PostgreSQL using JDBC. I built this to show how to handle basic database operations - you know, the stuff we do every day like fetching users and updating their info.
+Hey there! This is my implementation of a Java app that talks to PostgreSQL using JDBC. 
 
 🎯 What This Project Does
+
 Nothing too fancy, but it gets the job done! 
 
 It can:
@@ -19,6 +20,7 @@ git clone https://github.com/smallchungus/LyssnProject.git
 cd LyssnProject
 
 📋 Prerequisites
+
 You'll need these installed on your machine:
 
 Java (>17 or recent version will do)
@@ -52,13 +54,16 @@ private static final String PASSWORD = "your-password";
 🏃‍♂️ Running the App
 
 Package everything up:
+
 mvn clean package
 
 Let it rip!
+
 mvn exec:java
 
 
 🎉 What You Should See
+
 If everything's working, you'll get something like this:
 
 Testing database connection...
